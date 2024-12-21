@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Ask me anything about the website",
+    "version": "1.0",
+    "description": "Ask any questions about the website you're looking at. ",
+    "permissions": ["activeTab", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "options_page": "options.html"
+  }
