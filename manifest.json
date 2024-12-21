@@ -1,9 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "Ask me anything about the website",
+    "name": "Website AI Assistant Pro",
     "version": "1.0",
-    "description": "Ask any questions about the website you're looking at. ",
-    "permissions": ["activeTab", "storage"],
+    "description": "Intelligent website assistant powered by multiple AI models - Ask anything about any website",
+    "permissions": [
+      "activeTab", 
+      "storage",
+      "notifications"
+    ],
     "background": {
       "service_worker": "background.js"
     },
